@@ -29,9 +29,9 @@ exports.handler = async function Index () {
     photographer: 'Snappy Camera',
     service: 'Unsplash',
     credit: 'https://unsplash.com/@von_co',
-   // image: arc.static('background.jpg', {stagePath: false})
+    image: arc.static('background.jpg', {stagePath: false})
     // or link to an external image URL such as ↓
-    image: 'https://unsplash.com/photos/GuSwYE4Op4g', {stagePath: false}
+  //  image: 'https://unsplash.com/photos/GuSwYE4Op4g', {stagePath: false}
   })
 
   return {
