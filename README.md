@@ -1,2 +1,0 @@
-# digin-begin
-Begin app
